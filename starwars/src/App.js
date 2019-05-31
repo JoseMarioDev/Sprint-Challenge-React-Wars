@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import StarWarsCharacters from './components/StarWarsCharacters';
 
 class App extends Component {
