@@ -1,0 +1,20 @@
+$color-grey: #443e3e;
+$color-white: #fff;
+
+.character-container {
+  color: $color-grey;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  width: 30rem;
+  border: 1px solid $color-grey;
+  background: $color-white;
+  opacity: 0.9;
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+}

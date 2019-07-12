@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('./sw-bg.jpg');
+  background-size: cover;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+.App {
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+  }
+}
+.Header {
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
+}
+/* write your parent styles in here for your App.js */
